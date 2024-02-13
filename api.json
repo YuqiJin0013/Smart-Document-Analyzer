@@ -1,0 +1,28 @@
+{
+    "SmartDocumentAnalyzer": {
+      "ID": "/SmartDocumentAnalyzer/1",
+      "UploadedDocuments": [
+        {
+          "ID": "/SmartDocumentAnalyzer/1/UploadedDocuments/1",
+          "FileName": "example_document.pdf",
+          "Text": "This is the extracted text content of the example document.",
+          "TextAnalysis": {
+            "Sentiment": "Positive",
+            "Keywords": ["example", "document", "text", "content"],
+            "NamedEntities": [
+              {
+                "Entity": "BU",
+                "Type": "School"
+              },
+              {
+                "Entity": "Michael",
+                "Type": "Person"
+              }
+            ],
+            "Language": "English"
+          }
+        }
+      ]
+    }
+  }
+  
