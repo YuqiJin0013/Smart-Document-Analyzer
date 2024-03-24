@@ -12,10 +12,13 @@
 
 ### The project has following APIs
 * Authorization and authentication
-* File upload security
-* Text Extraction
+* Text extraction, conversion, uploader
 * Document/Paragraph classification
-* Text analysis
-* Output generate summaries
+* NLP analysis, sentiment analysis and summary
 
+### Queue based implementation
+* Pdf analysis
+* NLP analysis
 
+### Database schema
+* Implemented by SQL
