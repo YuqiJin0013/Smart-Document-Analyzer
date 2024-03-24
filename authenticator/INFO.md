@@ -1,0 +1,2 @@
+### In this directory contains the RESTful API authentication method and unit_test
+* Implement the basic authentication, the client sends the user name and password in the request header. It encodes them with base64, which is an encoding technique that converts the pair into a set of 64 characters for safe transmission.
