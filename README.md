@@ -11,30 +11,47 @@
 * user can access comprehensive documentation for the API endpoints to understand their functionality and usage.
 * user can receive meaningful error messages if something goes wrong during document analysis.
 
+### Already Implemented
+* Files can be successfully upload on the website, and the backend will also receive this
+* When upload the pdf files it will show the files with name and size
+* When click generate button on the web, it will generate summary, keywords and sentiment into a pdf file will show in the backend directory
+
+### Future Implementation
+* Login/out, Register page for users 
+* Improve the react layout (CSS, JS)
+* Instead of using NLTK & Textblob, by using third party API for NLP document analysis
+* Improve the connection between frontend and backend server when click the generate document
+* When use NLP to generate pdf files, should include the graphs and images. Also need to try different file format such as audio and videos
+
 ### The project has following APIs
 * Authorization and authentication
 * Text extraction, conversion, uploader
 * NLP (Use nltk and Textblob)
 * Keywords, Sentiment, Summary
-  
+
+
 ### Frontend
 The front end is built using ReactJS with TypeScript
-* contain upload files functionality 
-* display uploaded file details (name, size)
-* generate document by using NLP
+* Contain upload files functionality 
+* Display uploaded file details (name, size)
+* Generate document by using NLP
+* Core files including App.js in src directory and two files in src/components
 
 ### Backend
 The backend is built using Flask
 * REST API for handling requests and responses
+* The README provides detailed information about each endpoint including HTTP method in Backend directory
 
 ### Queue based implementation
 * Pdf analysis
 * NLP analysis
+* The implement is in Queue directory contains unit tests
 
 ### Database docDB
 Database is using MangoDB
 * db.py
 * test file 
+* Detail description is in README (docDB directory)
 
 ### Data Injection Implementation
 * input_validation.py (check the valid email format, url, document_id)
@@ -43,7 +60,20 @@ Database is using MangoDB
 * main.py (test_function to run)
 
 ### Instructions to run 
-*
+* git clone repo
+* cd this repo
+* set up a vir environment
+* 
+
+Steps to Run Backend (flask)
+I recommend set up environment to run it
+* 
+
+Steps to Run Frontend (react)
+I recommend create a directory called frontend (put public, src and package.json, package-lock.json in there)
+* First time run react, in terminal type npm run build (install all dependencies)
+* Then type npm start, it will lead to a web browser page
+* In the future, just type npm start to run react
 
 ### Screenshots 
 React screenshots
