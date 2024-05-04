@@ -30,13 +30,12 @@
 
 ### The project has following APIs
 * Authorization and authentication
-* Text extraction, conversion, uploader
-* NLP (Use nltk and Textblob)
-* Keywords, Sentiment, Summary
-
-
+* Upload File Endpoint
+* Generate Document Endpoint
+* NLP (Use nltk and Textblob) -> keywords, sentiment, summary
+  
 ### Frontend
-The front end is built using ReactJS with TypeScript
+The frontend is built using ReactJS with TypeScript
 * Contain upload files functionality 
 * Display uploaded file details (name, size)
 * Generate document by using NLP
@@ -55,19 +54,18 @@ The backend is built using Flask
 ### Database docDB
 Database is using MangoDB
 * db.py
-* test file 
+* unit_test 
 * Detail description is in README (docDB directory)
 
 ### Data Injection Implementation
 * input_validation.py (check the valid email format, url, document_id)
 * db.py
 * documents.db
-* main.py (test_function to run)
-
+* main.py (unit_test to run)
 
 ### Screenshots 
 React screenshots
 * You can choose and upload many files
 * Each time you upload files, they will be shown names
-* It also has generate document button which using NLP
+* It has generate document button which using NLP
 <img src="Screenshot 2024-05-04 at 5.10.24 PM.png">
