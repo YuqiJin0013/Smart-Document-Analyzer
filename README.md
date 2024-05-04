@@ -64,9 +64,12 @@ Database is using MangoDB
 * main.py (unit_test to run)
 
 ### Screenshots 
-React screenshots
+### React screenshots
 * You can choose and upload many files
 * Each time you upload files, they will be shown names
 * It has generate document button which using NLP, and has option to download
 * The generated result will shown in backend directory
 <img src="Screenshot 2024-05-04 at 5.10.24 PM.png">
+### Docker Image for basic services
+* Put dockerfile in backend directory to test app.py
+<img src="Screenshot 2024-05-04 at 6.22.05 PM.png">
