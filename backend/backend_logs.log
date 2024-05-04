@@ -1,0 +1,368 @@
+2024-05-03 21:59:26,700 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-03 21:59:26,700 INFO: [33mPress CTRL+C to quit[0m
+2024-05-03 22:00:28,083 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-03 22:00:28,084 INFO: [33mPress CTRL+C to quit[0m
+2024-05-03 22:00:28,176 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 22:00:28,969 WARNING:  * Debugger is active!
+2024-05-03 22:00:28,978 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 22:02:33,160 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690267819): is_file, is_inode_meta_mod, is_modified
+2024-05-03 22:02:33,160 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 22:02:33,163 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 22:02:33,377 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 22:02:34,565 WARNING:  * Debugger is active!
+2024-05-03 22:02:34,574 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 22:02:36,826 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690268810): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 22:02:36,826 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 22:02:39,469 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690269352): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 22:02:39,469 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 22:38:09,148 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.100.0.15:8080
+2024-05-03 22:38:09,149 INFO: [33mPress CTRL+C to quit[0m
+2024-05-03 22:38:09,153 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 22:38:10,009 WARNING:  * Debugger is active!
+2024-05-03 22:38:10,018 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 22:41:44,245 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-03 22:41:44,245 INFO: [33mPress CTRL+C to quit[0m
+2024-05-03 22:41:44,249 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 22:41:45,151 WARNING:  * Debugger is active!
+2024-05-03 22:41:45,160 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 22:43:34,686 INFO: 127.0.0.1 - - [03/May/2024 22:43:34] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 22:43:34,693 ERROR: Error processing NLP request: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-05-03 22:43:34,694 INFO: 127.0.0.1 - - [03/May/2024 22:43:34] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 22:44:11,603 INFO: 127.0.0.1 - - [03/May/2024 22:44:11] "[33mPOST /api/upload-file HTTP/1.1[0m" 404 -
+2024-05-03 22:44:12,547 INFO: 127.0.0.1 - - [03/May/2024 22:44:12] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 22:44:12,549 ERROR: Error processing NLP request: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-05-03 22:44:12,549 INFO: 127.0.0.1 - - [03/May/2024 22:44:12] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 22:44:50,001 INFO: 127.0.0.1 - - [03/May/2024 22:44:50] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 22:44:50,004 ERROR: Error processing NLP request: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-05-03 22:44:50,005 INFO: 127.0.0.1 - - [03/May/2024 22:44:50] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 22:46:17,005 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690427018): is_file, is_inode_meta_mod, is_modified
+2024-05-03 22:46:17,006 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 22:46:17,011 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 22:46:17,905 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 22:46:19,179 WARNING:  * Debugger is active!
+2024-05-03 22:46:19,186 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 22:46:27,858 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690427986): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 22:46:27,859 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 22:46:31,614 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690428535): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 22:46:31,614 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 22:46:34,048 INFO: 127.0.0.1 - - [03/May/2024 22:46:34] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 22:48:00,296 INFO: 127.0.0.1 - - [03/May/2024 22:48:00] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 22:48:58,527 INFO: 127.0.0.1 - - [03/May/2024 22:48:58] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 22:50:03,476 INFO: 127.0.0.1 - - [03/May/2024 22:50:03] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 22:51:57,390 INFO: 127.0.0.1 - - [03/May/2024 22:51:57] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 22:54:45,685 INFO: 127.0.0.1 - - [03/May/2024 22:54:45] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 22:56:28,464 INFO: 127.0.0.1 - - [03/May/2024 22:56:28] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 22:58:57,497 INFO: 127.0.0.1 - - [03/May/2024 22:58:57] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 22:58:58,914 INFO: 127.0.0.1 - - [03/May/2024 22:58:58] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 22:58:58,919 ERROR: Error processing NLP request: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-05-03 22:58:58,919 INFO: 127.0.0.1 - - [03/May/2024 22:58:58] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 22:59:02,031 ERROR: Error processing NLP request: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-05-03 22:59:02,033 INFO: 127.0.0.1 - - [03/May/2024 22:59:02] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 23:01:53,445 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/README.MD", inode=49479875, flags=11400, id=690472386): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:01:53,445 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/README.MD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:01:57,235 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/README.MD", inode=49479875, flags=11400, id=690472749): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:01:57,236 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/README.MD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:02:38,499 INFO: 127.0.0.1 - - [03/May/2024 23:02:38] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:02:38,501 ERROR: Error processing NLP request: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-05-03 23:02:38,502 INFO: 127.0.0.1 - - [03/May/2024 23:02:38] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 23:02:40,113 ERROR: Error processing NLP request: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-05-03 23:02:40,113 INFO: 127.0.0.1 - - [03/May/2024 23:02:40] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 23:04:08,417 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690475100): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:04:08,417 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:04:08,419 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 23:04:08,698 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:04:10,331 WARNING:  * Debugger is active!
+2024-05-03 23:04:10,340 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 23:04:13,966 INFO: 127.0.0.1 - - [03/May/2024 23:04:13] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:04:13,968 INFO: 127.0.0.1 - - [03/May/2024 23:04:13] "[31m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 400 -
+2024-05-03 23:06:00,465 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690476347): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:06:00,466 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:06:00,468 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 23:06:01,616 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:06:02,876 WARNING:  * Debugger is active!
+2024-05-03 23:06:02,883 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 23:06:09,565 INFO: 127.0.0.1 - - [03/May/2024 23:06:09] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:06:09,569 INFO: 127.0.0.1 - - [03/May/2024 23:06:09] "[31m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 400 -
+2024-05-03 23:06:16,405 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690477958): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:06:16,405 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:06:19,312 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690478491): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:06:19,312 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:06:22,395 INFO: 127.0.0.1 - - [03/May/2024 23:06:22] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 23:06:23,277 INFO: 127.0.0.1 - - [03/May/2024 23:06:23] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:06:23,279 INFO: 127.0.0.1 - - [03/May/2024 23:06:23] "[31m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 400 -
+2024-05-03 23:06:34,936 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690479625): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:06:34,937 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:07:40,676 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690480387): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:07:40,677 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:07:40,679 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 23:07:41,027 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:07:42,422 WARNING:  * Debugger is active!
+2024-05-03 23:07:42,428 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 23:07:43,651 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690481235): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:07:43,652 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:07:46,897 INFO: 127.0.0.1 - - [03/May/2024 23:07:46] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:07:46,900 INFO: 127.0.0.1 - - [03/May/2024 23:07:46] "[31m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 400 -
+2024-05-03 23:07:55,388 INFO: 127.0.0.1 - - [03/May/2024 23:07:55] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 23:07:56,226 INFO: 127.0.0.1 - - [03/May/2024 23:07:56] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:07:56,228 INFO: 127.0.0.1 - - [03/May/2024 23:07:56] "[31m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 400 -
+2024-05-03 23:09:58,440 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690484006): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:09:58,441 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:09:58,443 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 23:09:58,937 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:10:00,297 WARNING:  * Debugger is active!
+2024-05-03 23:10:00,303 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 23:10:19,670 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690484576): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:10:19,670 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:10:19,671 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 23:10:20,680 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:10:21,775 WARNING:  * Debugger is active!
+2024-05-03 23:10:21,781 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 23:10:35,260 INFO: 127.0.0.1 - - [03/May/2024 23:10:35] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:10:35,264 INFO: 127.0.0.1 - - [03/May/2024 23:10:35] "[31m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 400 -
+2024-05-03 23:11:53,859 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690489273): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:11:53,860 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:11:57,574 INFO: 127.0.0.1 - - [03/May/2024 23:11:57] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 23:11:58,773 INFO: 127.0.0.1 - - [03/May/2024 23:11:58] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:11:58,776 INFO: 127.0.0.1 - - [03/May/2024 23:11:58] "[31m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 400 -
+2024-05-03 23:12:49,334 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690492578): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:12:49,335 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:13:42,810 INFO: 127.0.0.1 - - [03/May/2024 23:13:42] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:13:42,819 INFO: 127.0.0.1 - - [03/May/2024 23:13:42] "[31m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 400 -
+2024-05-03 23:13:43,307 INFO: 127.0.0.1 - - [03/May/2024 23:13:43] "[31m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 400 -
+2024-05-03 23:16:36,289 INFO: 127.0.0.1 - - [03/May/2024 23:16:36] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 23:16:37,172 INFO: 127.0.0.1 - - [03/May/2024 23:16:37] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:16:37,198 DEBUG: Final size summary of the biggest document sections:
+2024-05-03 23:16:37,199 DEBUG: - pages: 300.0B
+2024-05-03 23:16:37,199 DEBUG: - fonts: 97.0B
+2024-05-03 23:16:37,199 ERROR: Error processing NLP request: name 'user_id' is not defined
+2024-05-03 23:16:37,200 INFO: 127.0.0.1 - - [03/May/2024 23:16:37] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 23:16:37,221 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49507582, flags=11100, id=690497645): is_created, is_file, is_modified
+2024-05-03 23:16:37,222 DEBUG: queue_event FileCreatedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2024-05-03 23:16:37,223 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:16:37,223 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:16:37,427 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49507582, flags=10400, id=690497653): is_file, is_inode_meta_mod
+2024-05-03 23:16:37,427 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:16:39,394 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690498169): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:16:39,394 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:18:02,775 INFO: 127.0.0.1 - - [03/May/2024 23:18:02] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:18:02,782 DEBUG: Final size summary of the biggest document sections:
+2024-05-03 23:18:02,782 DEBUG: - pages: 300.0B
+2024-05-03 23:18:02,782 DEBUG: - fonts: 97.0B
+2024-05-03 23:18:02,784 ERROR: Error processing NLP request: name 'user_id' is not defined
+2024-05-03 23:18:02,785 INFO: 127.0.0.1 - - [03/May/2024 23:18:02] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 23:18:02,807 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49507582, flags=11400, id=690500859): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:18:02,808 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:22:42,379 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690508919): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:22:42,379 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:22:42,380 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 23:22:43,173 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:22:44,801 WARNING:  * Debugger is active!
+2024-05-03 23:22:44,808 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 23:22:45,964 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690509106): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:22:45,965 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:22:45,966 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 23:22:47,004 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:22:47,870 WARNING:  * Debugger is active!
+2024-05-03 23:22:47,875 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 23:22:59,688 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49507582, flags=18800, id=690509387): is_file, is_renamed, is_xattr_mod
+2024-05-03 23:22:59,688 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:22:59,689 DEBUG: queue_event FileDeletedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2024-05-03 23:22:59,690 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:23:00,924 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690509674): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:23:00,925 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:23:21,095 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690511224): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:23:21,096 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:23:21,506 INFO: 127.0.0.1 - - [03/May/2024 23:23:21] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 23:23:22,757 INFO: 127.0.0.1 - - [03/May/2024 23:23:22] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:23:22,780 DEBUG: Final size summary of the biggest document sections:
+2024-05-03 23:23:22,780 DEBUG: - pages: 312.0B
+2024-05-03 23:23:22,780 DEBUG: - fonts: 97.0B
+2024-05-03 23:23:22,781 ERROR: Error processing NLP request: name 'user_id' is not defined
+2024-05-03 23:23:22,782 INFO: 127.0.0.1 - - [03/May/2024 23:23:22] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 23:23:22,793 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49508445, flags=11100, id=690511290): is_created, is_file, is_modified
+2024-05-03 23:23:22,793 DEBUG: queue_event FileCreatedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2024-05-03 23:23:22,794 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:23:22,794 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:23:22,808 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49508445, flags=10400, id=690511298): is_file, is_inode_meta_mod
+2024-05-03 23:23:22,808 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:23:24,807 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690511816): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:23:24,807 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:24:56,673 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/README.MD", inode=49479875, flags=11400, id=690514350): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:24:56,674 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/README.MD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:24:59,662 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690515065): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:24:59,662 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:26:53,163 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690516539): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:26:53,168 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:26:53,175 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 23:26:53,378 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:26:54,738 WARNING:  * Debugger is active!
+2024-05-03 23:26:54,744 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 23:27:02,258 INFO: 127.0.0.1 - - [03/May/2024 23:27:02] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:27:02,279 DEBUG: Final size summary of the biggest document sections:
+2024-05-03 23:27:02,279 DEBUG: - pages: 312.0B
+2024-05-03 23:27:02,279 DEBUG: - fonts: 97.0B
+2024-05-03 23:27:02,285 ERROR: Error processing NLP request: Unknown option: socketKeepAlive. Did you mean one of (sockettimeoutms, replicaset, username) or maybe a camelCase version of one? Refer to docstring.
+2024-05-03 23:27:02,286 INFO: 127.0.0.1 - - [03/May/2024 23:27:02] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 23:27:02,293 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49508445, flags=11400, id=690520360): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:27:02,293 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:28:16,149 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690527417): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:28:16,150 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:28:16,152 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 23:28:16,716 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:28:18,092 WARNING:  * Debugger is active!
+2024-05-03 23:28:18,098 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 23:28:23,289 INFO: 127.0.0.1 - - [03/May/2024 23:28:23] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:28:23,308 DEBUG: Final size summary of the biggest document sections:
+2024-05-03 23:28:23,309 DEBUG: - pages: 312.0B
+2024-05-03 23:28:23,309 DEBUG: - fonts: 97.0B
+2024-05-03 23:28:23,313 ERROR: Error processing NLP request: Unknown option: socketKeepAlive. Did you mean one of (sockettimeoutms, replicaset, username) or maybe a camelCase version of one? Refer to docstring.
+2024-05-03 23:28:23,314 INFO: 127.0.0.1 - - [03/May/2024 23:28:23] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 23:28:23,321 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49508445, flags=11400, id=690527902): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:28:23,322 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:32:30,877 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690531809): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:32:30,877 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:32:30,879 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 23:32:31,975 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:32:33,348 WARNING:  * Debugger is active!
+2024-05-03 23:32:33,354 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 23:32:46,509 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690533543): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:32:46,509 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:32:48,083 INFO: 127.0.0.1 - - [03/May/2024 23:32:48] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 23:32:49,169 INFO: 127.0.0.1 - - [03/May/2024 23:32:49] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:32:49,187 DEBUG: Final size summary of the biggest document sections:
+2024-05-03 23:32:49,187 DEBUG: - pages: 312.0B
+2024-05-03 23:32:49,187 DEBUG: - fonts: 97.0B
+2024-05-03 23:32:49,189 INFO: 127.0.0.1 - - [03/May/2024 23:32:49] "POST /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:32:49,200 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49508445, flags=11400, id=690533658): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:32:49,200 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:33:10,647 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49508445, flags=18800, id=690534564): is_file, is_renamed, is_xattr_mod
+2024-05-03 23:33:10,647 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:33:10,647 DEBUG: queue_event FileDeletedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2024-05-03 23:33:10,648 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:33:11,884 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690534845): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:33:11,885 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:36:35,856 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690536763): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:36:35,857 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:36:35,858 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 23:36:36,823 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:37:00,867 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-03 23:37:00,867 INFO: [33mPress CTRL+C to quit[0m
+2024-05-03 23:37:00,872 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:37:01,767 WARNING:  * Debugger is active!
+2024-05-03 23:37:01,776 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 23:37:14,825 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690541168): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:37:14,825 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:37:17,999 INFO: 127.0.0.1 - - [03/May/2024 23:37:17] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 23:37:19,018 INFO: 127.0.0.1 - - [03/May/2024 23:37:19] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:37:19,040 ERROR: Error processing NLP request: Unknown option: socketKeepAlive. Did you mean one of (sockettimeoutms, replicaset, username) or maybe a camelCase version of one? Refer to docstring.
+2024-05-03 23:37:19,041 INFO: 127.0.0.1 - - [03/May/2024 23:37:19] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 23:37:19,045 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49510713, flags=11100, id=690541309): is_created, is_file, is_modified
+2024-05-03 23:37:19,045 DEBUG: queue_event FileCreatedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2024-05-03 23:37:19,046 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:37:19,046 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:37:19,060 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49510713, flags=10400, id=690541317): is_file, is_inode_meta_mod
+2024-05-03 23:37:19,061 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:37:21,082 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690541985): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:37:21,082 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:43:16,914 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690545318): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:43:16,915 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:43:16,916 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 23:43:17,843 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:43:19,224 WARNING:  * Debugger is active!
+2024-05-03 23:43:19,229 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 23:43:29,087 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690546539): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-03 23:43:29,087 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-03 23:43:32,324 INFO: 127.0.0.1 - - [03/May/2024 23:43:32] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-03 23:43:33,146 INFO: 127.0.0.1 - - [03/May/2024 23:43:33] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:43:33,166 ERROR: Error processing NLP request: Unknown option: socketKeepAlive. Did you mean one of (sockettimeoutms, replicaset, username) or maybe a camelCase version of one? Refer to docstring.
+2024-05-03 23:43:33,167 INFO: 127.0.0.1 - - [03/May/2024 23:43:33] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 23:43:33,172 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49510713, flags=11400, id=690546764): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:43:33,172 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:46:40,553 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690551380): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:46:40,555 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:46:40,557 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 23:46:41,411 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:46:42,826 WARNING:  * Debugger is active!
+2024-05-03 23:46:42,832 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 23:46:57,699 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py", inode=49419328, flags=11400, id=690551922): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:46:57,699 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:46:57,700 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-03 23:46:58,177 INFO:  * Restarting with watchdog (fsevents)
+2024-05-03 23:46:59,276 WARNING:  * Debugger is active!
+2024-05-03 23:46:59,282 INFO:  * Debugger PIN: 132-484-392
+2024-05-03 23:47:30,230 INFO: 127.0.0.1 - - [03/May/2024 23:47:30] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:47:31,228 ERROR: Error processing NLP request: Unknown option: socketKeepAlive. Did you mean one of (sockettimeoutms, replicaset, username) or maybe a camelCase version of one? Refer to docstring.
+2024-05-03 23:47:31,228 INFO: 127.0.0.1 - - [03/May/2024 23:47:31] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 23:47:31,248 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49510713, flags=11400, id=690552613): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:47:31,248 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-03 23:58:52,287 INFO: 127.0.0.1 - - [03/May/2024 23:58:52] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-03 23:58:52,306 ERROR: Error processing NLP request: Unknown option: socketKeepAlive. Did you mean one of (sockettimeoutms, replicaset, username) or maybe a camelCase version of one? Refer to docstring.
+2024-05-03 23:58:52,307 INFO: 127.0.0.1 - - [03/May/2024 23:58:52] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-03 23:58:52,320 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49510713, flags=11400, id=690559961): is_file, is_inode_meta_mod, is_modified
+2024-05-03 23:58:52,321 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-04 00:02:20,867 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690564506): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-04 00:02:20,868 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-04 00:02:22,486 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690564799): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-04 00:02:22,487 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-04 00:03:50,682 INFO: 127.0.0.1 - - [04/May/2024 00:03:50] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-04 00:03:51,764 INFO: 127.0.0.1 - - [04/May/2024 00:03:51] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-04 00:03:51,783 ERROR: Error processing NLP request: Unknown option: socketKeepAlive. Did you mean one of (sockettimeoutms, replicaset, username) or maybe a camelCase version of one? Refer to docstring.
+2024-05-04 00:03:51,784 INFO: 127.0.0.1 - - [04/May/2024 00:03:51] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-04 00:03:51,798 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49510713, flags=11400, id=690573643): is_file, is_inode_meta_mod, is_modified
+2024-05-04 00:03:51,799 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-04 00:04:16,733 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49510713, flags=18800, id=690574915): is_file, is_renamed, is_xattr_mod
+2024-05-04 00:04:16,733 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-04 00:04:16,734 DEBUG: queue_event FileDeletedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2024-05-04 00:04:16,737 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-04 00:04:17,878 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690575199): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-04 00:04:17,879 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-04 00:04:24,184 INFO: 127.0.0.1 - - [04/May/2024 00:04:24] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-04 00:04:24,197 ERROR: Error processing NLP request: Unknown option: socketKeepAlive. Did you mean one of (sockettimeoutms, replicaset, username) or maybe a camelCase version of one? Refer to docstring.
+2024-05-04 00:04:24,198 INFO: 127.0.0.1 - - [04/May/2024 00:04:24] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-04 00:04:24,202 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49512782, flags=11100, id=690575494): is_created, is_file, is_modified
+2024-05-04 00:04:24,203 DEBUG: queue_event FileCreatedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2024-05-04 00:04:24,204 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-04 00:04:24,204 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-04 00:04:24,216 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49512782, flags=10400, id=690575502): is_file, is_inode_meta_mod
+2024-05-04 00:04:24,217 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-04 00:04:26,158 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend", inode=48442829, flags=2e000, id=690576086): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2024-05-04 00:04:26,159 DEBUG: queue_event DirModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2024-05-04 00:07:44,167 INFO: 127.0.0.1 - - [04/May/2024 00:07:44] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-04 00:07:45,379 INFO: 127.0.0.1 - - [04/May/2024 00:07:45] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-04 00:07:45,393 ERROR: Error processing NLP request: Unknown option: socketKeepAlive. Did you mean one of (sockettimeoutms, replicaset, username) or maybe a camelCase version of one? Refer to docstring.
+2024-05-04 00:07:45,394 INFO: 127.0.0.1 - - [04/May/2024 00:07:45] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-04 00:07:45,411 DEBUG: NativeEvent(path="/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf", inode=49512782, flags=11400, id=690584694): is_file, is_inode_meta_mod, is_modified
+2024-05-04 00:07:45,411 DEBUG: queue_event FileModifiedEvent(src_path='/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/document_analysis.pdf', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2024-05-04 17:02:11,509 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-04 17:02:11,509 INFO: [33mPress CTRL+C to quit[0m
+2024-05-04 17:02:11,510 INFO:  * Restarting with stat
+2024-05-04 17:02:12,019 WARNING:  * Debugger is active!
+2024-05-04 17:02:12,029 INFO:  * Debugger PIN: 917-795-258
+2024-05-04 17:02:23,962 INFO: 127.0.0.1 - - [04/May/2024 17:02:23] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-04 17:02:24,998 INFO: 127.0.0.1 - - [04/May/2024 17:02:24] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-04 17:02:25,983 ERROR: Error processing NLP request: Unknown option: socketKeepAlive. Did you mean one of (sockettimeoutms, replicaset, username) or maybe a camelCase version of one? Refer to docstring.
+2024-05-04 17:02:25,983 INFO: 127.0.0.1 - - [04/May/2024 17:02:25] "[35m[1mPOST /api/nlp/generate-document HTTP/1.1[0m" 500 -
+2024-05-04 17:10:03,417 INFO:  * Detected change in '/Users/yuqijin/Desktop/Smart-Document-Analyzer/backend/app.py', reloading
+2024-05-04 17:10:03,516 INFO:  * Restarting with stat
+2024-05-04 17:10:04,032 WARNING:  * Debugger is active!
+2024-05-04 17:10:04,039 INFO:  * Debugger PIN: 917-795-258
+2024-05-04 17:10:16,019 INFO: 127.0.0.1 - - [04/May/2024 17:10:16] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-04 17:10:16,813 INFO: 127.0.0.1 - - [04/May/2024 17:10:16] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-04 17:10:17,265 INFO: 127.0.0.1 - - [04/May/2024 17:10:17] "POST /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-04 17:11:49,229 INFO: 127.0.0.1 - - [04/May/2024 17:11:49] "POST /api/upload-file HTTP/1.1" 200 -
+2024-05-04 17:11:50,079 INFO: 127.0.0.1 - - [04/May/2024 17:11:50] "OPTIONS /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-04 17:11:50,087 INFO: 127.0.0.1 - - [04/May/2024 17:11:50] "POST /api/nlp/generate-document HTTP/1.1" 200 -
+2024-05-04 17:37:31,144 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-04 17:37:31,144 INFO: [33mPress CTRL+C to quit[0m
+2024-05-04 17:37:31,145 INFO:  * Restarting with stat
+2024-05-04 17:37:31,577 WARNING:  * Debugger is active!
+2024-05-04 17:37:31,583 INFO:  * Debugger PIN: 917-795-258
