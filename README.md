@@ -42,7 +42,7 @@
 * Authorization and authentication
 * Upload File Endpoint
 * Generate Document Endpoint
-* NLP (Use nltk and Textblob) -> keywords, sentiment, summary
+* NLP (Use nltk and Textblob) -> keywords, sentiment, summary shown in nlp_integration.py
   
 ### Frontend
 The frontend is built using ReactJS with TypeScript
