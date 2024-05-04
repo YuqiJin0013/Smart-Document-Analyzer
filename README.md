@@ -68,6 +68,6 @@ Database is using MangoDB
 ### Screenshots 
 React screenshots
 * You can choose and upload many files
-* Each time you upload files, they will be shown the sizes and names
+* Each time you upload files, they will be shown names
 * It also has generate document button which using NLP
 <img src="Screenshot 2024-05-04 at 5.10.24 PM.png">
