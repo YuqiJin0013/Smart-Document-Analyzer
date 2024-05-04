@@ -28,6 +28,16 @@
 * Then type npm start, it will lead to a web browser page
 * In the future, just type npm start to run react
 
+### Screenshots 
+### Project screenshot & Docker Image for basic service
+* You can choose and upload many files
+* Each time you upload files, they will be shown names
+* It has generate document button which using NLP, and has option to download
+* The generated result will shown in backend directory
+<img src="Screenshot 2024-05-04 at 5.10.24 PM.png">
+* Put dockerfile in backend directory to test app.py
+<img src="Screenshot 2024-05-04 at 6.22.05 PM.png">
+
 ### The project has following APIs
 * Authorization and authentication
 * Upload File Endpoint
@@ -63,13 +73,3 @@ Database is using MangoDB
 * documents.db
 * main.py (unit_test to run)
 
-### Screenshots 
-### React screenshots
-* You can choose and upload many files
-* Each time you upload files, they will be shown names
-* It has generate document button which using NLP, and has option to download
-* The generated result will shown in backend directory
-<img src="Screenshot 2024-05-04 at 5.10.24 PM.png">
-### Docker Image for basic services
-* Put dockerfile in backend directory to test app.py
-<img src="Screenshot 2024-05-04 at 6.22.05 PM.png">
