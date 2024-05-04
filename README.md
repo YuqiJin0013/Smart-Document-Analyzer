@@ -9,7 +9,7 @@
 * Login/out, Register pages for users registeration
 * Improve the react layout (CSS, JS)
 * Instead of using NLTK & Textblob, by using third party API for NLP document analysis such as Google, chatGPT, or other APIs
-* Improve the connection between frontend and backend server when click the generate document
+* Improve the connection between frontend and backend server when click the generate document, and get more detailed results
 * When use NLP to generate pdf files, should include the graphs and images. Also need to try different file format such as txt, audio
 
 ### Instructions to run 
