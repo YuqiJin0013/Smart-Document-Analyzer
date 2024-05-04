@@ -67,5 +67,6 @@ Database is using MangoDB
 React screenshots
 * You can choose and upload many files
 * Each time you upload files, they will be shown names
-* It has generate document button which using NLP
+* It has generate document button which using NLP, and has option to download
+* The generated result will shown in backend directory
 <img src="Screenshot 2024-05-04 at 5.10.24 PM.png">
