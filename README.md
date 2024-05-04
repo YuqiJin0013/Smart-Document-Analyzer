@@ -1,9 +1,4 @@
-# Smart-Document-Analyzer
-
-### Instructions to start
-*
-
-### Demo Screenshots
+# Smart-Document-Analyzer from EC530 Built by Yuqi Jin
 
 ### User Stories
 * user can login logout and signup to the secure service.
@@ -16,20 +11,44 @@
 * user can access comprehensive documentation for the API endpoints to understand their functionality and usage.
 * user can receive meaningful error messages if something goes wrong during document analysis.
 
-### The APIs
+### The project has following APIs
 * Authorization and authentication
 * Text extraction, conversion, uploader
-* NLP analysis, sentiment analysis and summary
+* NLP (Use nltk and Textblob)
+* Keywords, Sentiment, Summary
+  
+### Frontend
+The front end is built using ReactJS with TypeScript
+* contain upload files functionality 
+* display uploaded file details (name, size)
+* generate document by using NLP
+
+### Backend
+The backend is built using Flask
+* REST API for handling requests and responses
 
 ### Queue based implementation
 * Pdf analysis
 * NLP analysis
 
-### Database schema
-* SQL 
+### Database docDB
+Database is using MangoDB
+* db.py
+* test file 
 
 ### Data Injection Implementation
+* input_validation.py (check the valid email format, url, document_id)
+* db.py
+* documents.db
+* main.py (test_function to run)
 
-### Frontend React
-* Files uploading
-* Login/out, Register
+### Instructions to run 
+*
+
+### Screenshots 
+React screenshots
+* You can choose and upload many files
+* Each time you upload files, they will be shown the sizes and names
+* It also has generate document button which using NLP
+<img src="Screenshot 2024-05-03 at 10.27.01 PM.png">
+<img src="Screenshot 2024-05-03 at 10.50.20 PM.png">
