@@ -23,7 +23,7 @@
 * pip3 install -r requirements.txt
 * python3 app.py (run backend)
 * open another terminal to run react
-* I recommend create a directory called frontend (put public, src and package.json, package-lock.json in there)
+* I HIGHLY RECOMMEND to create a directory called frontend (put public, src and package.json, package-lock.json in there)
 * First time run react, in terminal type npm run build (install all dependencies)
 * Then type npm start, it will lead to a web browser page
 * In the future, just type npm start to run react
