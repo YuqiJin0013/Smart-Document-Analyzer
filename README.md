@@ -23,6 +23,23 @@
 * Improve the connection between frontend and backend server when click the generate document
 * When use NLP to generate pdf files, should include the graphs and images. Also need to try different file format such as audio and videos
 
+### Instructions to run 
+* git clone repo
+* cd this repo
+* set up a vir environment
+* 
+
+Steps to Run Backend (flask)
+I recommend set up environment to run it
+* 
+
+Steps to Run Frontend (react)
+I recommend create a directory called frontend (put public, src and package.json, package-lock.json in there)
+* First time run react, in terminal type npm run build (install all dependencies)
+* Then type npm start, it will lead to a web browser page
+* In the future, just type npm start to run react
+
+
 ### The project has following APIs
 * Authorization and authentication
 * Text extraction, conversion, uploader
@@ -59,21 +76,6 @@ Database is using MangoDB
 * documents.db
 * main.py (test_function to run)
 
-### Instructions to run 
-* git clone repo
-* cd this repo
-* set up a vir environment
-* 
-
-Steps to Run Backend (flask)
-I recommend set up environment to run it
-* 
-
-Steps to Run Frontend (react)
-I recommend create a directory called frontend (put public, src and package.json, package-lock.json in there)
-* First time run react, in terminal type npm run build (install all dependencies)
-* Then type npm start, it will lead to a web browser page
-* In the future, just type npm start to run react
 
 ### Screenshots 
 React screenshots
